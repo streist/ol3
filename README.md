@@ -6,5 +6,9 @@ GeoAdmin API files are accessibles here:
 - http://geoadmin.github.io/ol3/ol.js
 - http://geoadmin.github.io/ol3/ga.css
 
+Create gh-pages
+---------------
 
-In order to create the pages, start the script build_pages.sh. You can then commit the new version. It takes te master.
+    $ build_pages.sh
+
+Then commit the new API code.
