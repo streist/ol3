@@ -12,9 +12,7 @@ cp -r build/hosted/master/apidoc temp
 
 git checkout gh-pages
 cp -r temp/* .
+rm -rf temp
 
-git checkout master
-
-rm -fr temp
-
-git checkout gh-pages
+print " !!! IMPORTANT !!!"
+print "You need to add and commit your files"
