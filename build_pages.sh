@@ -14,5 +14,7 @@ git checkout gh-pages
 cp -r temp/* .
 rm -rf temp
 
-print " !!! IMPORTANT !!!"
-print "You need to add and commit your files"
+git status
+
+echo "!!! IMPORTANT !!!"
+echo "You need to add and commit your files"
