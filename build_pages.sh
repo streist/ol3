@@ -7,8 +7,11 @@ git checkout master
 cp build/ol*.js temp
 cp css/*.css temp
 
+./build.py apidoc
+cp -r build/hosted/master/apidoc temp
+
 git checkout gh-pages
-cp temp/* .
+cp -r temp/* .
 
 git checkout master
 
