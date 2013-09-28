@@ -6,6 +6,12 @@ GeoAdmin API files are accessibles here:
 - http://geoadmin.github.io/ol3/ol.js
 - http://geoadmin.github.io/ol3/ga.css
 
+GeoAdmin API Examples
+---------------------
+
+- http://geoadmin.github.io/ol3/examples/
+
+
 GeoAdmin API Doc
 ----------------
 
