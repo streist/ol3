@@ -10,9 +10,6 @@ cp css/*.css temp
 ./build.py apidoc
 cp -r build/hosted/master/apidoc temp
 
-./build.py host-examples
-cp -r build/hosted/master/examples temp
-
 git checkout gh-pages
 cp -r temp/* .
 rm -rf temp
