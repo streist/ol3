@@ -3,8 +3,8 @@
 mkdir temp
 
 git checkout master
-./build.py
-cp build/ol*.js temp
+./build-ga.py
+cp build/ga*.js temp
 cp css/*.css temp
 
 ./build.py apidoc
