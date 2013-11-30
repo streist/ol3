@@ -3,8 +3,16 @@ GeoAdmin API RE3
 
 GeoAdmin API files are accessibles here:
 
-- http://geoadmin.github.io/ol3/ol.js
+- http://geoadmin.github.io/ol3/ga.js
 - http://geoadmin.github.io/ol3/ga.css
+
+And the layer configuration is available here (simply load one of these files in your page):
+
+- http://geoadmin.github.io/ol3/layersconfig.en.js
+- http://geoadmin.github.io/ol3/layersconfig.de.js
+- http://geoadmin.github.io/ol3/layersconfig.fr.js
+- http://geoadmin.github.io/ol3/layersconfig.it.js
+- http://geoadmin.github.io/ol3/layersconfig.rm.js
 
 GeoAdmin API Doc
 ----------------
@@ -16,8 +24,8 @@ GeoAdmin API doc combined with OpenLayers 3 and GeoAdmin is available here:
 Development version of API
 --------------------------
 
-- http://geoadmin.github.io/ol3/ol-simple.js
-- http://geoadmin.github.io/ol3/ol-whitespace.js
+- http://geoadmin.github.io/ol3/ga-simple.js
+- http://geoadmin.github.io/ol3/ga-whitespace.js
 
 
 Create gh-pages
