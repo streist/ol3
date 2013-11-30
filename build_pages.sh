@@ -5,7 +5,8 @@ mkdir temp
 git checkout master
 ./build-ga.py
 cp build/ga*.js temp
-cp css/*.css temp
+cp build/layer*.js temp
+cp build/*.css temp
 
 ./build.py apidoc
 cp -r build/hosted/master/apidoc temp
