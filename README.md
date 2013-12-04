@@ -1,10 +1,14 @@
 GeoAdmin API RE3
 ================
 
-GeoAdmin API files are accessibles here:
+GeoAdmin API files are accessible here:
 
 - http://geoadmin.github.io/ol3/ga.js
 - http://geoadmin.github.io/ol3/ga.css
+
+Proj4JS files:
+
+- http://geoadmin.github.io/ol3/proj4j-compressed.js
 
 And the layer configuration is available here (simply load one of these files in your page):
 
