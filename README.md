@@ -9,6 +9,8 @@ GeoAdmin API files are accessible here:
 Proj4JS files:
 
 - http://geoadmin.github.io/ol3/proj4j-compressed.js
+- http://geoadmin.github.io/ol3/EPSG21781.js
+- http://geoadmin.github.io/ol3/EPSG2056.js
 
 And the layer configuration is available here (simply load one of these files in your page):
 
