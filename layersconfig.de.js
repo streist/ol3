@@ -11,7 +11,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.are.agglomerationen_isolierte_staedte-2000", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -31,7 +30,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.are.alpenkonvention", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -51,7 +49,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.are.gemeindetypen", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -70,7 +67,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.astra.ausnahmetransportrouten", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -90,7 +86,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.astra.ivs-gelaendekarte", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -109,7 +104,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": true, 
     "serverLayerName": "ch.astra.ivs-nat", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -129,7 +123,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": true, 
     "serverLayerName": "ch.astra.ivs-nat-verlaeufe", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -148,7 +141,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.astra.ivs-nat_abgrenzungen", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -167,7 +159,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.astra.ivs-nat_wegbegleiter", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -186,7 +177,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": true, 
     "serverLayerName": "ch.astra.ivs-reg_loc", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -207,7 +197,6 @@ function getConfig(){ return {
     "searchable": true, 
     "serverLayerName": "ch.astra.strassenverkehrszaehlung_messstellen-regional_lokal", 
     "singleTile": true, 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "type": "wms", 
@@ -226,7 +215,6 @@ function getConfig(){ return {
     "searchable": true, 
     "serverLayerName": "ch.astra.strassenverkehrszaehlung_messstellen-uebergeordnet", 
     "singleTile": true, 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "type": "wms", 
@@ -245,7 +233,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": true, 
     "serverLayerName": "ch.babs.kulturgueter", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -266,7 +253,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.bafu.bundesinventare-amphibien", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -285,7 +271,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.bafu.bundesinventare-amphibien_wanderobjekte", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -305,7 +290,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.bafu.bundesinventare-auen", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -325,7 +309,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.bafu.bundesinventare-bln", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -345,7 +328,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.bafu.bundesinventare-flachmoore", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -365,7 +347,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.bafu.bundesinventare-hochmoore", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -385,10 +366,10 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.bafu.bundesinventare-jagdbanngebiete", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
+      "20131202", 
       "20100801"
     ], 
     "type": "wmts"
@@ -405,7 +386,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.bafu.bundesinventare-moorlandschaften", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -425,7 +405,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.bafu.bundesinventare-trockenwiesen_trockenweiden", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -447,7 +426,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.bafu.bundesinventare-vogelreservate", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -467,7 +445,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.bafu.fauna-steinbockkolonien", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -486,7 +463,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": true, 
     "serverLayerName": "ch.bafu.hydrologie-gewaesserzustandsmessstationen", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -505,7 +481,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.bafu.hydrologie-hydromessstationen", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -524,7 +499,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": true, 
     "serverLayerName": "ch.bafu.hydrologie-wassertemperaturmessstationen", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -544,7 +518,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.bafu.laerm-bahnlaerm_nacht", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -564,7 +537,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.bafu.laerm-bahnlaerm_tag", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -584,7 +556,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.bafu.laerm-strassenlaerm_nacht", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -604,7 +575,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.bafu.laerm-strassenlaerm_tag", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -623,7 +593,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.bafu.moose", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -642,7 +611,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.bafu.nabelstationen", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -662,7 +630,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.bafu.permafrost", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -682,7 +649,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.bafu.ren-extensive_landwirtschaftsgebiete", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -702,7 +668,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.bafu.ren-feuchtgebiete", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -722,7 +687,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.bafu.ren-fliessgewaesser_seen", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -742,7 +706,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.bafu.ren-trockenstandorte", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -762,7 +725,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.bafu.ren-wald", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -782,7 +744,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.bafu.schutzgebiete-paerke_nationaler_bedeutung", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -805,7 +766,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.bafu.schutzgebiete-ramsar", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -826,7 +786,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.bafu.schutzgebiete-schweizerischer_nationalpark", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -846,7 +805,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.bafu.showme-gemeinden_hochwasser", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -869,7 +827,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.bafu.showme-gemeinden_lawinen", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -892,7 +849,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.bafu.showme-gemeinden_rutschungen", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -915,7 +871,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.bafu.showme-gemeinden_sturzprozesse", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -938,7 +893,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.bafu.showme-kantone_hochwasser", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -961,7 +915,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.bafu.showme-kantone_lawinen", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -984,7 +937,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.bafu.showme-kantone_rutschungen", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -1007,7 +959,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.bafu.showme-kantone_sturzprozesse", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -1029,7 +980,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.bafu.swissprtr", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -1051,7 +1001,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.bafu.unesco-weltnaturerbe", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -1070,7 +1019,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.bafu.wasser-entnahme", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -1089,7 +1037,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.bafu.wasser-gebietsauslaesse", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -1108,7 +1055,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.bafu.wasser-leitungen", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -1127,7 +1073,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.bafu.wasser-rueckgabe", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -1147,7 +1092,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.bafu.wasser-teileinzugsgebiete_2", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -1166,7 +1110,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.bafu.wasser-teileinzugsgebiete_40", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -1186,7 +1129,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.bag.zecken-fsme-faelle", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -1206,7 +1148,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.bag.zecken-fsme-impfung", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -1226,7 +1167,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.bag.zecken-lyme", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -1245,7 +1185,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.bak.bundesinventar-schuetzenswerte-ortsbilder", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -1268,7 +1207,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.bak.schutzgebiete-unesco_weltkulturerbe", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -1288,7 +1226,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.bakom.anbieter-eigenes_festnetz", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -1310,7 +1247,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.bakom.anschlussart-glasfaser", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -1332,7 +1268,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.bakom.anschlussart-koaxialkabel", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -1354,7 +1289,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.bakom.anschlussart-kupferdraht", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -1376,7 +1310,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.bakom.downlink1", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -1398,7 +1331,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.bakom.downlink10", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -1420,7 +1352,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.bakom.downlink100", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -1442,7 +1373,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.bakom.downlink2", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -1464,7 +1394,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.bakom.downlink20", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -1486,7 +1415,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.bakom.downlink50", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -1508,7 +1436,6 @@ function getConfig(){ return {
     "searchable": false, 
     "serverLayerName": "ch.bakom.mobil-antennenstandorte-gsm", 
     "singleTile": true, 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "type": "wms", 
@@ -1527,7 +1454,6 @@ function getConfig(){ return {
     "searchable": false, 
     "serverLayerName": "ch.bakom.mobil-antennenstandorte-lte", 
     "singleTile": true, 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "type": "wms", 
@@ -1546,7 +1472,6 @@ function getConfig(){ return {
     "searchable": false, 
     "serverLayerName": "ch.bakom.mobil-antennenstandorte-umts", 
     "singleTile": true, 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "type": "wms", 
@@ -1565,7 +1490,6 @@ function getConfig(){ return {
     "searchable": true, 
     "serverLayerName": "ch.bakom.radio-fernsehsender", 
     "singleTile": true, 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "type": "wms", 
@@ -1584,7 +1508,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.bakom.uplink1", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -1606,7 +1529,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.bakom.uplink10", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -1628,7 +1550,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.bakom.uplink100", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -1650,7 +1571,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.bakom.uplink2", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -1672,7 +1592,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.bakom.uplink20", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -1694,7 +1613,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.bakom.uplink50", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -1716,7 +1634,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.bakom.verfuegbarkeit-hdtv", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -1738,7 +1655,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.bakom.verfuegbarkeit-tv", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -1760,7 +1676,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": true, 
     "serverLayerName": "ch.bakom.versorgungsgebiet-tv", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -1780,7 +1695,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": true, 
     "serverLayerName": "ch.bakom.versorgungsgebiet-ukw", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -1800,7 +1714,6 @@ function getConfig(){ return {
     "searchable": false, 
     "serverLayerName": "ch.bav.kataster-belasteter-standorte-oev", 
     "singleTile": true, 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "type": "wms", 
@@ -1818,13 +1731,30 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.bav.laerm-emissionplan_eisenbahn_2015", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
       "20101109"
     ], 
     "type": "wmts"
+  }, 
+  "ch.bav.sachplan-infrastruktur-schiene_kraft": {
+    "attribution": "BAV", 
+    "attributionUrl": "http://www.bav.admin.ch/?lang=de", 
+    "background": false, 
+    "format": "png", 
+    "hasLegend": true, 
+    "highlightable": true, 
+    "label": "ch.bav.sachplan-infrastruktur-schiene_kraft", 
+    "queryable": true, 
+    "searchable": true, 
+    "serverLayerName": "ch.bav.sachplan-infrastruktur-schiene_kraft", 
+    "singleTile": true, 
+    "timeBehaviour": "last", 
+    "timeEnabled": false, 
+    "type": "wms", 
+    "wmsLayers": "ch.bav.sachplan-infrastruktur-schiene_kraft", 
+    "wmsUrl": "http://wms-bgdi0i.bgdi.admin.ch/?REQUEST=GetCapabilities&SERVICE=WMS&VERSION=1.0.0"
   }, 
   "ch.bazl.luftfahrtkarten-icao": {
     "attribution": "BAZL", 
@@ -1837,7 +1767,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.bazl.luftfahrtkarten-icao", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -1859,7 +1788,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.bazl.projektierungszonen-flughafenanlagen", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -1879,7 +1807,6 @@ function getConfig(){ return {
     "searchable": false, 
     "serverLayerName": "ch.bazl.sachplan-infrastruktur-luftfahrt_kraft", 
     "singleTile": true, 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "type": "wms", 
@@ -1897,7 +1824,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.bazl.segelflugkarte", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -1905,6 +1831,23 @@ function getConfig(){ return {
       "20120308"
     ], 
     "type": "wmts"
+  }, 
+  "ch.bazl.sicherheitszonenplan": {
+    "attribution": "BAZL", 
+    "attributionUrl": "http://www.bazl.admin.ch/index.html?lang=de", 
+    "background": false, 
+    "format": "png", 
+    "hasLegend": true, 
+    "highlightable": true, 
+    "label": "ch.bazl.sicherheitszonenplan", 
+    "opacity": 0.75, 
+    "queryable": false, 
+    "searchable": false, 
+    "serverLayerName": "ch.bazl.sicherheitszonenplan", 
+    "timeBehaviour": "last", 
+    "timeEnabled": false, 
+    "type": "wmts", 
+    "wmsUrl": "http://wms.geo.admin.ch/?REQUEST=GetCapabilities&SERVICE=WMS&VERSION=1.0.0"
   }, 
   "ch.bfe.abgeltung-wasserkraftnutzung": {
     "attribution": "BFE", 
@@ -1918,7 +1861,6 @@ function getConfig(){ return {
     "searchable": false, 
     "serverLayerName": "ch.bfe.abgeltung-wasserkraftnutzung", 
     "singleTile": true, 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "type": "wms", 
@@ -1937,7 +1879,6 @@ function getConfig(){ return {
     "searchable": false, 
     "serverLayerName": "ch.bfe.energieforschung", 
     "singleTile": true, 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "type": "wms", 
@@ -1955,7 +1896,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.bfe.kernkraftwerke", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -1974,7 +1914,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.bfe.kleinwasserkraftpotentiale", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -1995,7 +1934,6 @@ function getConfig(){ return {
     "searchable": false, 
     "serverLayerName": "ch.bfe.sachplan-geologie-tiefenlager", 
     "singleTile": true, 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "type": "wms", 
@@ -2015,7 +1953,6 @@ function getConfig(){ return {
     "searchable": false, 
     "serverLayerName": "ch.bfe.sachplan-geologie-tiefenlager-thematische-darstellung", 
     "singleTile": true, 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "type": "wms", 
@@ -2034,7 +1971,6 @@ function getConfig(){ return {
     "searchable": false, 
     "serverLayerName": "ch.bfe.statistik-wasserkraftanlagen", 
     "singleTile": true, 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "type": "wms", 
@@ -2053,7 +1989,6 @@ function getConfig(){ return {
     "searchable": false, 
     "serverLayerName": "ch.bfe.stauanlagen-bundesaufsicht", 
     "singleTile": true, 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "type": "wms", 
@@ -2067,12 +2002,11 @@ function getConfig(){ return {
     "format": "png", 
     "hasLegend": true, 
     "highlightable": true, 
-    "label": "ch.bfs.arealstatistik", 
+    "label": "Arealstatistik 2004/09 NOAS04", 
     "opacity": 0.75, 
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.bfs.arealstatistik", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -2092,7 +2026,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.bfs.arealstatistik-1985", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -2113,7 +2046,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.bfs.arealstatistik-1997", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -2134,7 +2066,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.bfs.arealstatistik-hintergrund", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -2154,7 +2085,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.bfs.arealstatistik-waldmischungsgrad", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -2171,7 +2101,6 @@ function getConfig(){ return {
     "searchable": false, 
     "serverLayerName": "ch.bfs.gebaeude_wohnungs_register", 
     "singleTile": true, 
-    "staging": "prod", 
     "subLayersIds": [
       "ch.bfs.gebaeude_wohnungs_register_wms", 
       "ch.bfs.gebaeude_wohnungs_register_wmts"
@@ -2195,7 +2124,6 @@ function getConfig(){ return {
     "searchable": false, 
     "serverLayerName": "ch.bfs.gebaeude_wohnungs_register", 
     "singleTile": true, 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "type": "wms", 
@@ -2239,7 +2167,6 @@ function getConfig(){ return {
     ], 
     "searchable": false, 
     "serverLayerName": "ch.bfs.gebaeude_wohnungs_register", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -2259,7 +2186,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.blw.alpprodukte", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -2280,7 +2206,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.blw.bergprodukte", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -2301,7 +2226,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.blw.bewaesserungsbeduerftigkeit", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -2321,7 +2245,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.blw.bodeneignung-gruendigkeit", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -2341,7 +2264,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.blw.bodeneignung-kulturland", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -2361,7 +2283,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.blw.bodeneignung-kulturtyp", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -2381,7 +2302,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.blw.bodeneignung-naehrstoffspeichervermoegen", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -2401,7 +2321,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.blw.bodeneignung-skelettgehalt", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -2421,7 +2340,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.blw.bodeneignung-vernaessung", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -2441,7 +2359,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.blw.bodeneignung-wasserdurchlaessigkeit", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -2461,7 +2378,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.blw.bodeneignung-wasserspeichervermoegen", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -2481,7 +2397,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.blw.erosion", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -2501,7 +2416,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.blw.erosion-mit_bergzonen", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -2521,7 +2435,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.blw.erosion-quantitativ", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -2541,7 +2454,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.blw.feldblockkarte", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -2561,7 +2473,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.blw.gewaesseranschlusskarte", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -2581,7 +2492,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.blw.gewaesseranschlusskarte-direkt", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -2601,7 +2511,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.blw.hang_steillagen", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -2622,7 +2531,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.blw.klimaeignung-futterbau", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -2642,7 +2550,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.blw.klimaeignung-getreidebau", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -2662,7 +2569,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.blw.klimaeignung-kartoffeln", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -2682,7 +2588,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.blw.klimaeignung-koernermais", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -2702,7 +2607,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.blw.klimaeignung-kulturland", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -2722,7 +2626,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.blw.klimaeignung-spezialkulturen", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -2742,7 +2645,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.blw.klimaeignung-typ", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -2762,7 +2664,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.blw.klimaeignung-zwischenfruchtbau", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -2782,7 +2683,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.blw.landwirtschaftliche-zonengrenzen", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -2804,7 +2704,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.blw.niederschlagshaushalt", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -2824,7 +2723,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.blw.steil_terrassenlagen_rebbau", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -2845,7 +2743,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.blw.ursprungsbezeichnungen-fleisch", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -2866,7 +2763,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.blw.ursprungsbezeichnungen-kaese", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -2886,7 +2782,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.blw.ursprungsbezeichnungen-pflanzen", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -2906,7 +2801,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.blw.ursprungsbezeichnungen-spirituosen", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -2926,7 +2820,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.ensi.zonenplan-notfallschutz-kernanlagen", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -2947,7 +2840,6 @@ function getConfig(){ return {
     "searchable": false, 
     "serverLayerName": "ch.kantone.cadastralwebmap-farbe", 
     "singleTile": false, 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "type": "wms", 
@@ -2964,7 +2856,6 @@ function getConfig(){ return {
     "searchable": false, 
     "serverLayerName": "ch.swisstopo-vd.geometa-gemeinde", 
     "singleTile": true, 
-    "staging": "prod", 
     "subLayersIds": [
       "ch.swisstopo-vd.geometa-gemeinde_wms", 
       "ch.swisstopo-vd.geometa-gemeinde_wmstile"
@@ -2989,7 +2880,6 @@ function getConfig(){ return {
     "searchable": false, 
     "serverLayerName": "ch.swisstopo-vd.geometa-gemeinde", 
     "singleTile": true, 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "type": "wms", 
@@ -3011,7 +2901,6 @@ function getConfig(){ return {
     "searchable": false, 
     "serverLayerName": "ch.swisstopo-vd.geometa-gemeinde", 
     "singleTile": false, 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "type": "wms", 
@@ -3028,7 +2917,6 @@ function getConfig(){ return {
     "searchable": false, 
     "serverLayerName": "ch.swisstopo-vd.geometa-grundbuch", 
     "singleTile": true, 
-    "staging": "prod", 
     "subLayersIds": [
       "ch.swisstopo-vd.geometa-grundbuch_wmstile", 
       "ch.swisstopo-vd.geometa-grundbuch_wms"
@@ -3053,7 +2941,6 @@ function getConfig(){ return {
     "searchable": false, 
     "serverLayerName": "ch.swisstopo-vd.geometa-grundbuch", 
     "singleTile": true, 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "type": "wms", 
@@ -3075,7 +2962,6 @@ function getConfig(){ return {
     "searchable": false, 
     "serverLayerName": "ch.swisstopo-vd.geometa-grundbuch", 
     "singleTile": false, 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "type": "wms", 
@@ -3092,7 +2978,6 @@ function getConfig(){ return {
     "searchable": false, 
     "serverLayerName": "ch.swisstopo-vd.geometa-los", 
     "singleTile": true, 
-    "staging": "prod", 
     "subLayersIds": [
       "ch.swisstopo-vd.geometa-los_wmstile", 
       "ch.swisstopo-vd.geometa-los_wms"
@@ -3117,7 +3002,6 @@ function getConfig(){ return {
     "searchable": false, 
     "serverLayerName": "ch.swisstopo-vd.geometa-los", 
     "singleTile": true, 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "type": "wms", 
@@ -3139,7 +3023,6 @@ function getConfig(){ return {
     "searchable": false, 
     "serverLayerName": "ch.swisstopo-vd.geometa-los", 
     "singleTile": false, 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "type": "wms", 
@@ -3156,7 +3039,6 @@ function getConfig(){ return {
     "searchable": false, 
     "serverLayerName": "ch.swisstopo-vd.geometa-nfgeom", 
     "singleTile": true, 
-    "staging": "prod", 
     "subLayersIds": [
       "ch.swisstopo-vd.geometa-nfgeom_wmstile", 
       "ch.swisstopo-vd.geometa-nfgeom_wms"
@@ -3181,7 +3063,6 @@ function getConfig(){ return {
     "searchable": false, 
     "serverLayerName": "ch.swisstopo-vd.geometa-nfgeom", 
     "singleTile": true, 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "type": "wms", 
@@ -3203,7 +3084,6 @@ function getConfig(){ return {
     "searchable": false, 
     "serverLayerName": "ch.swisstopo-vd.geometa-nfgeom", 
     "singleTile": false, 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "type": "wms", 
@@ -3220,7 +3100,6 @@ function getConfig(){ return {
     "searchable": false, 
     "serverLayerName": "ch.swisstopo-vd.geometa-standav", 
     "singleTile": true, 
-    "staging": "prod", 
     "subLayersIds": [
       "ch.swisstopo-vd.geometa-standav_wmstile", 
       "ch.swisstopo-vd.geometa-standav_wms"
@@ -3245,7 +3124,6 @@ function getConfig(){ return {
     "searchable": false, 
     "serverLayerName": "ch.swisstopo-vd.geometa-standav", 
     "singleTile": true, 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "type": "wms", 
@@ -3267,7 +3145,6 @@ function getConfig(){ return {
     "searchable": false, 
     "serverLayerName": "ch.swisstopo-vd.geometa-standav", 
     "singleTile": false, 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "type": "wms", 
@@ -3286,7 +3163,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo-vd.ortschaftenverzeichnis_plz", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -3311,7 +3187,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo-vd.spannungsarme-gebiete", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -3332,7 +3207,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.dreiecksvermaschung", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -3351,7 +3225,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.fixpunkte-agnes", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -3369,7 +3242,6 @@ function getConfig(){ return {
     "searchable": true, 
     "serverLayerName": "ch.swisstopo.fixpunkte-hfp1", 
     "singleTile": true, 
-    "staging": "prod", 
     "subLayersIds": [
       "ch.swisstopo.fixpunkte-hfp1_wms", 
       "ch.swisstopo.fixpunkte-hfp1_wmts"
@@ -3393,7 +3265,6 @@ function getConfig(){ return {
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.fixpunkte-hfp1", 
     "singleTile": true, 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "type": "wms", 
@@ -3434,7 +3305,6 @@ function getConfig(){ return {
     ], 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.fixpunkte-hfp1", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -3451,7 +3321,6 @@ function getConfig(){ return {
     "searchable": true, 
     "serverLayerName": "ch.swisstopo.fixpunkte-hfp2", 
     "singleTile": true, 
-    "staging": "prod", 
     "subLayersIds": [
       "ch.swisstopo.fixpunkte-hfp2_wms", 
       "ch.swisstopo.fixpunkte-hfp2_wmts"
@@ -3475,7 +3344,6 @@ function getConfig(){ return {
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.fixpunkte-hfp2", 
     "singleTile": true, 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "type": "wms", 
@@ -3516,7 +3384,6 @@ function getConfig(){ return {
     ], 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.fixpunkte-hfp2", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -3533,7 +3400,6 @@ function getConfig(){ return {
     "searchable": true, 
     "serverLayerName": "ch.swisstopo.fixpunkte-lfp1", 
     "singleTile": true, 
-    "staging": "prod", 
     "subLayersIds": [
       "ch.swisstopo.fixpunkte-lfp1_wmts", 
       "ch.swisstopo.fixpunkte-lfp1_wms"
@@ -3557,7 +3423,6 @@ function getConfig(){ return {
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.fixpunkte-lfp1", 
     "singleTile": true, 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "type": "wms", 
@@ -3598,7 +3463,6 @@ function getConfig(){ return {
     ], 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.fixpunkte-lfp1", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -3615,7 +3479,6 @@ function getConfig(){ return {
     "searchable": true, 
     "serverLayerName": "ch.swisstopo.fixpunkte-lfp2", 
     "singleTile": true, 
-    "staging": "prod", 
     "subLayersIds": [
       "ch.swisstopo.fixpunkte-lfp2_wms", 
       "ch.swisstopo.fixpunkte-lfp2_wmts"
@@ -3639,7 +3502,6 @@ function getConfig(){ return {
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.fixpunkte-lfp2", 
     "singleTile": true, 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "type": "wms", 
@@ -3680,7 +3542,6 @@ function getConfig(){ return {
     ], 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.fixpunkte-lfp2", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -3700,7 +3561,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.geoidmodell-ch1903", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -3720,7 +3580,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.geoidmodell-etrs89", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -3739,7 +3598,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.geologie-eiszeit-lgm-raster", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -3758,7 +3616,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.geologie-geodaesie-bouguer_anomalien", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -3777,7 +3634,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.geologie-geodaesie-isostatische_anomalien", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -3797,7 +3653,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.geologie-geolkarten500.metadata", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -3816,7 +3671,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.geologie-geologische_karte", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -3836,10 +3690,10 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.geologie-geologischer_atlas", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
+      "20131120", 
       "20120601", 
       "20101221"
     ], 
@@ -3856,7 +3710,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.geologie-geophysik-aeromagnetische_karte_jura", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -3875,7 +3728,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.geologie-geophysik-aeromagnetische_karte_schweiz", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -3894,7 +3746,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.geologie-geophysik-deklination", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -3914,7 +3765,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.geologie-geophysik-geothermie", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -3934,7 +3784,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.geologie-geophysik-inklination", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -3954,7 +3803,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.geologie-geophysik-totalintensitaet", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -3975,7 +3823,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.geologie-geotechnik-gk200", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -3995,7 +3842,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.geologie-geotechnik-gk500-genese", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -4016,7 +3862,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.geologie-geotechnik-gk500-gesteinsklassierung", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -4037,7 +3882,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.geologie-geotechnik-gk500-lithologie_hauptgruppen", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -4058,7 +3902,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.geologie-geotechnik-mineralische_rohstoffe200", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -4077,7 +3920,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.geologie-geotope", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -4097,7 +3939,25 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.geologie-gravimetrischer_atlas", 
-    "staging": "prod", 
+    "timeBehaviour": "last", 
+    "timeEnabled": false, 
+    "timestamps": [
+      "20021231"
+    ], 
+    "type": "wmts"
+  }, 
+  "ch.swisstopo.geologie-gravimetrischer_atlas.metadata": {
+    "attribution": "swisstopo", 
+    "attributionUrl": "http://www.swisstopo.admin.ch/internet/swisstopo/de/home.html", 
+    "background": false, 
+    "format": "png", 
+    "hasLegend": true, 
+    "highlightable": true, 
+    "label": "ch.swisstopo.geologie-gravimetrischer_atlas.metadata", 
+    "opacity": 0.75, 
+    "queryable": true, 
+    "searchable": true, 
+    "serverLayerName": "ch.swisstopo.geologie-gravimetrischer_atlas.metadata", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -4116,7 +3976,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.geologie-hydrogeologische_karte-grundwasservorkommen", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -4136,7 +3995,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.geologie-hydrogeologische_karte-grundwasservulnerabilitaet", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -4156,7 +4014,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.geologie-tektonische_karte", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -4176,28 +4033,8 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.hiks-dufour", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
-    "timestamps": [
-      "18450101"
-    ], 
-    "type": "wmts"
-  }, 
-  "ch.swisstopo.hiks-dufour-timeseries": {
-    "attribution": "swisstopo", 
-    "attributionUrl": "http://www.swisstopo.admin.ch/internet/swisstopo/de/home.html", 
-    "background": false, 
-    "format": "png", 
-    "hasLegend": true, 
-    "highlightable": true, 
-    "label": "ch.swisstopo.hiks-dufour-timeseries", 
-    "queryable": true, 
-    "searchable": false, 
-    "serverLayerName": "ch.swisstopo.hiks-dufour", 
-    "staging": "prod", 
-    "timeBehaviour": "last", 
-    "timeEnabled": true, 
     "timestamps": [
       "18450101"
     ], 
@@ -4214,11 +4051,204 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.hiks-siegfried", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
       "18700101"
+    ], 
+    "type": "wmts"
+  }, 
+  "ch.swisstopo.hiks-siegfried-ta25": {
+    "attribution": "swisstopo", 
+    "attributionUrl": "http://www.swisstopo.admin.ch/internet/swisstopo/de/home.html", 
+    "background": false, 
+    "format": "png", 
+    "hasLegend": false, 
+    "highlightable": true, 
+    "label": "ch.swisstopo.hiks-siegfried-ta25", 
+    "queryable": true, 
+    "searchable": false, 
+    "serverLayerName": "ch.swisstopo.hiks-siegfried-ta25", 
+    "timeBehaviour": "last", 
+    "timeEnabled": false, 
+    "timestamps": [
+      "19491231", 
+      "19481231", 
+      "19471231", 
+      "19461231", 
+      "19451231", 
+      "19441231", 
+      "19431231", 
+      "19421231", 
+      "19411231", 
+      "19401231", 
+      "19391231", 
+      "19381231", 
+      "19371231", 
+      "19361231", 
+      "19351231", 
+      "19341231", 
+      "19331231", 
+      "19321231", 
+      "19311231", 
+      "19301231", 
+      "19291231", 
+      "19281231", 
+      "19271231", 
+      "19261231", 
+      "19251231", 
+      "19241231", 
+      "19231231", 
+      "19221231", 
+      "19211231", 
+      "19201231", 
+      "19191231", 
+      "19181231", 
+      "19171231", 
+      "19161231", 
+      "19151231", 
+      "19141231", 
+      "19131231", 
+      "19121231", 
+      "19111231", 
+      "19101231", 
+      "19091231", 
+      "19081231", 
+      "19071231", 
+      "19061231", 
+      "19051231", 
+      "19041231", 
+      "19031231", 
+      "19021231", 
+      "19011231", 
+      "19001231", 
+      "18991231", 
+      "18981231", 
+      "18971231", 
+      "18961231", 
+      "18951231", 
+      "18941231", 
+      "18931231", 
+      "18921231", 
+      "18911231", 
+      "18901231", 
+      "18891231", 
+      "18881231", 
+      "18871231", 
+      "18861231", 
+      "18851231", 
+      "18841231", 
+      "18831231", 
+      "18821231", 
+      "18811231", 
+      "18801231", 
+      "18791231", 
+      "18781231", 
+      "18771231", 
+      "18761231", 
+      "18751231", 
+      "18741231", 
+      "18731231", 
+      "18721231", 
+      "18711231", 
+      "18701231"
+    ], 
+    "type": "wmts"
+  }, 
+  "ch.swisstopo.hiks-siegfried-ta50": {
+    "attribution": "swisstopo", 
+    "attributionUrl": "http://www.swisstopo.admin.ch/internet/swisstopo/de/home.html", 
+    "background": false, 
+    "format": "png", 
+    "hasLegend": false, 
+    "highlightable": true, 
+    "label": "ch.swisstopo.hiks-siegfried-ta50", 
+    "queryable": true, 
+    "searchable": false, 
+    "serverLayerName": "ch.swisstopo.hiks-siegfried-ta50", 
+    "timeBehaviour": "last", 
+    "timeEnabled": false, 
+    "timestamps": [
+      "19491231", 
+      "19481231", 
+      "19471231", 
+      "19461231", 
+      "19451231", 
+      "19441231", 
+      "19431231", 
+      "19421231", 
+      "19411231", 
+      "19401231", 
+      "19391231", 
+      "19381231", 
+      "19371231", 
+      "19361231", 
+      "19351231", 
+      "19341231", 
+      "19331231", 
+      "19321231", 
+      "19311231", 
+      "19301231", 
+      "19291231", 
+      "19281231", 
+      "19271231", 
+      "19261231", 
+      "19251231", 
+      "19241231", 
+      "19231231", 
+      "19221231", 
+      "19211231", 
+      "19201231", 
+      "19191231", 
+      "19181231", 
+      "19171231", 
+      "19161231", 
+      "19151231", 
+      "19141231", 
+      "19131231", 
+      "19121231", 
+      "19111231", 
+      "19101231", 
+      "19091231", 
+      "19081231", 
+      "19071231", 
+      "19061231", 
+      "19051231", 
+      "19041231", 
+      "19031231", 
+      "19021231", 
+      "19011231", 
+      "19001231", 
+      "18991231", 
+      "18981231", 
+      "18971231", 
+      "18961231", 
+      "18951231", 
+      "18941231", 
+      "18931231", 
+      "18921231", 
+      "18911231", 
+      "18901231", 
+      "18891231", 
+      "18881231", 
+      "18871231", 
+      "18861231", 
+      "18851231", 
+      "18841231", 
+      "18831231", 
+      "18821231", 
+      "18811231", 
+      "18801231", 
+      "18791231", 
+      "18781231", 
+      "18771231", 
+      "18761231", 
+      "18751231", 
+      "18741231", 
+      "18731231", 
+      "18721231", 
+      "18711231", 
+      "18701231"
     ], 
     "type": "wmts"
   }, 
@@ -4234,7 +4264,6 @@ function getConfig(){ return {
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.images-swissimage.metadata", 
     "singleTile": true, 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "type": "wms", 
@@ -4253,13 +4282,197 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.koordinatenaenderung", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
       "20061231"
     ], 
     "type": "wmts"
+  }, 
+  "ch.swisstopo.lubis-bildstreifen": {
+    "attribution": "swisstopo", 
+    "attributionUrl": "http://www.swisstopo.admin.ch/internet/swisstopo/de/home.html", 
+    "background": false, 
+    "format": "png", 
+    "hasLegend": true, 
+    "highlightable": true, 
+    "label": "ch.swisstopo.lubis-bildstreifen", 
+    "queryable": true, 
+    "searchable": false, 
+    "serverLayerName": "ch.swisstopo.lubis-bildstreifen", 
+    "singleTile": false, 
+    "timeBehaviour": "all", 
+    "timeEnabled": true, 
+    "timestamps": [
+      "2013", 
+      "2012", 
+      "2011", 
+      "2010", 
+      "2009", 
+      "2008", 
+      "2007", 
+      "2006", 
+      "2005"
+    ], 
+    "type": "wms", 
+    "wmsLayers": "ch.swisstopo.lubis-bildstreifen", 
+    "wmsUrl": "http://wms-bgdi0i.bgdi.admin.ch/?REQUEST=GetCapabilities&SERVICE=WMS&VERSION=1.0.0"
+  }, 
+  "ch.swisstopo.lubis-luftbilder": {
+    "attribution": "swisstopo", 
+    "attributionUrl": "http://www.swisstopo.admin.ch/internet/swisstopo/de/home.html", 
+    "background": false, 
+    "format": "png", 
+    "hasLegend": true, 
+    "highlightable": true, 
+    "label": "Luftbilder swisstopo", 
+    "queryable": true, 
+    "searchable": true, 
+    "serverLayerName": "ch.swisstopo.lubis-luftbilder", 
+    "singleTile": false, 
+    "timeBehaviour": "all", 
+    "timeEnabled": true, 
+    "timestamps": [
+      "2010", 
+      "2009", 
+      "2008", 
+      "2007", 
+      "2006", 
+      "2005", 
+      "2004", 
+      "2003", 
+      "2002", 
+      "2001", 
+      "2000", 
+      "1999", 
+      "1998", 
+      "1997", 
+      "1996", 
+      "1995", 
+      "1994", 
+      "1993", 
+      "1992", 
+      "1991", 
+      "1990", 
+      "1989", 
+      "1988", 
+      "1987", 
+      "1986", 
+      "1985", 
+      "1984", 
+      "1983", 
+      "1982", 
+      "1981", 
+      "1980", 
+      "1979", 
+      "1978", 
+      "1977", 
+      "1976", 
+      "1975", 
+      "1974", 
+      "1973", 
+      "1972", 
+      "1971", 
+      "1970", 
+      "1969", 
+      "1968", 
+      "1967", 
+      "1966", 
+      "1965", 
+      "1964", 
+      "1963", 
+      "1962", 
+      "1961", 
+      "1960", 
+      "1959", 
+      "1958", 
+      "1957", 
+      "1956", 
+      "1955", 
+      "1954", 
+      "1953", 
+      "1952", 
+      "1951", 
+      "1950", 
+      "1949", 
+      "1947", 
+      "1946"
+    ], 
+    "type": "wms", 
+    "wmsLayers": "ch.swisstopo.lubis-luftbilder", 
+    "wmsUrl": "http://wms-bgdi0i.bgdi.admin.ch/?REQUEST=GetCapabilities&SERVICE=WMS&VERSION=1.0.0"
+  }, 
+  "ch.swisstopo.lubis-luftbilder-dritte-firmen": {
+    "attribution": "swisstopo", 
+    "attributionUrl": "http://www.swisstopo.admin.ch/internet/swisstopo/de/home.html", 
+    "background": false, 
+    "format": "png", 
+    "hasLegend": true, 
+    "highlightable": true, 
+    "label": "Luftbilder Privater", 
+    "queryable": true, 
+    "searchable": true, 
+    "serverLayerName": "ch.swisstopo.lubis-luftbilder-dritte-firmen", 
+    "singleTile": false, 
+    "timeBehaviour": "all", 
+    "timeEnabled": true, 
+    "timestamps": [
+      "2009", 
+      "2008", 
+      "2007", 
+      "2006", 
+      "2005", 
+      "2004", 
+      "2003", 
+      "2002", 
+      "2001", 
+      "2000", 
+      "1999", 
+      "1998", 
+      "1997", 
+      "1996", 
+      "1995", 
+      "1994", 
+      "1993", 
+      "1992", 
+      "1991", 
+      "1990", 
+      "1989"
+    ], 
+    "type": "wms", 
+    "wmsLayers": "ch.swisstopo.lubis-luftbilder-dritte-firmen", 
+    "wmsUrl": "http://wms-bgdi0i.bgdi.admin.ch/?REQUEST=GetCapabilities&SERVICE=WMS&VERSION=1.0.0"
+  }, 
+  "ch.swisstopo.lubis-luftbilder-dritte-kantone": {
+    "attribution": "swisstopo", 
+    "attributionUrl": "http://www.swisstopo.admin.ch/internet/swisstopo/de/home.html", 
+    "background": false, 
+    "format": "png", 
+    "hasLegend": true, 
+    "highlightable": true, 
+    "label": "Luftbilder Kantone", 
+    "queryable": true, 
+    "searchable": true, 
+    "serverLayerName": "ch.swisstopo.lubis-luftbilder-dritte-kantone", 
+    "singleTile": false, 
+    "timeBehaviour": "all", 
+    "timeEnabled": true, 
+    "timestamps": [
+      "2013", 
+      "2012", 
+      "2011", 
+      "2009", 
+      "1984", 
+      "1967", 
+      "1966", 
+      "1965", 
+      "1964", 
+      "1963", 
+      "1962"
+    ], 
+    "type": "wms", 
+    "wmsLayers": "ch.swisstopo.lubis-luftbilder-dritte-kantone", 
+    "wmsUrl": "http://wms-bgdi0i.bgdi.admin.ch/?REQUEST=GetCapabilities&SERVICE=WMS&VERSION=1.0.0"
   }, 
   "ch.swisstopo.pixelkarte-farbe": {
     "attribution": "swisstopo", 
@@ -4272,7 +4485,6 @@ function getConfig(){ return {
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.pixelkarte-farbe", 
     "singleTile": true, 
-    "staging": "prod", 
     "subLayersIds": [
       "ch.swisstopo.swisstlm3d-karte-farbe_wmts", 
       "ch.swisstopo.pixelkarte-farbe_wmts"
@@ -4311,13 +4523,10 @@ function getConfig(){ return {
       100, 
       50, 
       20, 
-      10, 
-      5, 
-      2.5
+      10
     ], 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.pixelkarte-farbe-pk100.noscale", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -4391,7 +4600,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.pixelkarte-farbe-pk1000.noscale", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -4411,7 +4619,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.pixelkarte-farbe-pk200.noscale", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -4455,7 +4662,6 @@ function getConfig(){ return {
     ], 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.pixelkarte-farbe-pk25.noscale", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -4552,12 +4758,10 @@ function getConfig(){ return {
       50, 
       20, 
       10, 
-      5, 
-      2.5
+      5
     ], 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.pixelkarte-farbe-pk50.noscale", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -4647,7 +4851,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.pixelkarte-farbe-pk500.noscale", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -4668,7 +4871,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.pixelkarte-farbe", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -4692,7 +4894,6 @@ function getConfig(){ return {
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.pixelkarte-grau", 
     "singleTile": true, 
-    "staging": "prod", 
     "subLayersIds": [
       "ch.swisstopo.swisstlm3d-karte-grau_wmts", 
       "ch.swisstopo.pixelkarte-grau_wmts"
@@ -4714,7 +4915,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.pixelkarte-grau", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -4738,7 +4938,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.swissalti3d-reliefschattierung", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -4759,7 +4958,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.swissboundaries3d-bezirk-flaeche.fill", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -4779,7 +4977,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.swissboundaries3d-gemeinde-flaeche.fill", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -4799,7 +4996,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.swissboundaries3d-kanton-flaeche.fill", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -4819,7 +5015,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.swissboundaries3d-land-flaeche.fill", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -4839,7 +5034,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.swissbuildings3d", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -4888,7 +5082,6 @@ function getConfig(){ return {
     ], 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.swissimage", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -4909,11 +5102,10 @@ function getConfig(){ return {
     "format": "png", 
     "hasLegend": true, 
     "highlightable": true, 
-    "label": "Topo. Landschaftsmodell", 
+    "label": "Karte swissTLM (farbig)", 
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.swisstlm3d-karte-farbe", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -4935,7 +5127,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.swisstlm3d-karte-farbe", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -4950,11 +5141,10 @@ function getConfig(){ return {
     "format": "png", 
     "hasLegend": true, 
     "highlightable": true, 
-    "label": "Topo. Landschaftsmodell", 
+    "label": "Karte swissTLM (grau)", 
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.swisstlm3d-karte-grau", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -4976,7 +5166,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.swisstlm3d-karte-grau", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -4995,7 +5184,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.swisstlm3d-wanderwege", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -5015,7 +5203,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.transformationsgenauigkeit", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -5035,7 +5222,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.vec200-adminboundaries-protectedarea", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -5056,7 +5242,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.vec200-building", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -5076,7 +5261,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.vec200-hydrography", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -5097,7 +5281,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.vec200-landcover", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -5118,7 +5301,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.vec200-landcover-wald", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -5137,7 +5319,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.vec200-miscellaneous", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -5157,7 +5338,6 @@ function getConfig(){ return {
     "queryable": false, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.vec200-miscellaneous-geodpoint", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -5177,7 +5357,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.vec200-names-namedlocation", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -5197,7 +5376,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.vec200-transportation-oeffentliche-verkehr", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -5217,7 +5395,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.vec200-transportation-strassennetz", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -5237,7 +5414,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.vec25-anlagen", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -5256,7 +5432,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.vec25-einzelobjekte", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -5275,7 +5450,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.vec25-eisenbahnnetz", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -5294,7 +5468,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.vec25-gebaeude", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -5313,7 +5486,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.vec25-gewaessernetz", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -5332,7 +5504,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.vec25-heckenbaeume", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -5352,7 +5523,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.vec25-primaerflaechen", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -5371,7 +5541,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.vec25-strassennetz", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -5390,7 +5559,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.swisstopo.vec25-uebrigerverkehr", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -5409,7 +5577,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": true, 
     "serverLayerName": "ch.swisstopo.verschiebungsvektoren-tsp1", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -5428,7 +5595,6 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": true, 
     "serverLayerName": "ch.swisstopo.verschiebungsvektoren-tsp2", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
@@ -5448,12 +5614,47 @@ function getConfig(){ return {
     "queryable": true, 
     "searchable": false, 
     "serverLayerName": "ch.vbs.territorialregionen", 
-    "staging": "prod", 
     "timeBehaviour": "last", 
     "timeEnabled": false, 
     "timestamps": [
       "20110501"
     ], 
     "type": "wmts"
+  }, 
+  "org.epsg.grid_21781": {
+    "attribution": "swisstopo", 
+    "attributionUrl": "http://www.swisstopo.admin.ch/internet/swisstopo/de/home.html", 
+    "background": false, 
+    "format": "png", 
+    "hasLegend": true, 
+    "highlightable": true, 
+    "label": "Koordinatennetz CH1903/LV03", 
+    "queryable": false, 
+    "searchable": false, 
+    "serverLayerName": "org.epsg.grid_21781", 
+    "singleTile": true, 
+    "timeBehaviour": "last", 
+    "timeEnabled": false, 
+    "type": "wms", 
+    "wmsLayers": "org.epsg.grid_21781", 
+    "wmsUrl": "http://wms-bgdi0i.bgdi.admin.ch/?REQUEST=GetCapabilities&SERVICE=WMS&VERSION=1.0.0"
+  }, 
+  "org.epsg.grid_4326": {
+    "attribution": "swisstopo", 
+    "attributionUrl": "http://www.swisstopo.admin.ch/internet/swisstopo/de/home.html", 
+    "background": false, 
+    "format": "png", 
+    "hasLegend": true, 
+    "highlightable": true, 
+    "label": "Koordinatennetz WGS84", 
+    "queryable": false, 
+    "searchable": false, 
+    "serverLayerName": "org.epsg.grid_4326", 
+    "singleTile": true, 
+    "timeBehaviour": "last", 
+    "timeEnabled": false, 
+    "type": "wms", 
+    "wmsLayers": "org.epsg.grid_4326", 
+    "wmsUrl": "http://wms-bgdi0i.bgdi.admin.ch/?REQUEST=GetCapabilities&SERVICE=WMS&VERSION=1.0.0"
   }
 } } 
