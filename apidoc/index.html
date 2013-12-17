@@ -51,16 +51,23 @@
 
     <section>
         <article><h2>Finding your way around</h2>
-<p>See the class list to the right and especially take a look at <a href="ol.Map.html">ol.Map</a> and <a href="ol.layer.Layer.html">ol.layer.Layer</a> because those are the central objects.</p>
-<p>In general every use of OpenLayers starts by initializing a map, then adding the required layers. Controls and interactions can be added to change the behavior of the map.</p>
+<p>The <a href="http://www.geo.admin.ch">geo.admin.ch API</a> is a fork of <a href="http://ol3js.org">OL3</a>
+which add only a few classes and configuration files to the project, to make it easier to
+use with the <a href="http://www.swisstopo.admin.ch/internet/swisstopo/en/home/topics/survey/sys/refsys/projections.html">swiss grid</a></p>
+<p>See the class list to the right and especially take a look at <a href="ga.Map.html">ga.Map</a> and the method <a href="ga.layer.html#create">ga.layer.create</a>
+to add predifined layers.</p>
+<p>In general every use of OpenLayers starts by initializing a map, then adding the
+required layers. Controls and interactions can be added to change the behavior of the map.</p>
 <h2>Projections</h2>
-<p>A <a href="ol.proj.Projection.html">ol.proj.Projection</a> defines which point on earth is represented by a pair of coordinates.
+<p>A <a href="http://map3.geo.admin.ch">map.geo.admin.ch</a> map uses the swiss grid (EPSG:21781).
+A <a href="ol.proj.Projection.html">ol.proj.Projection</a> defines which point on earth is represented by a pair of coordinates.
 Coordinates within OpenLayers can be used in various projections where some common projections are always supported,
 others can be used via <a href="http://trac.osgeo.org/proj4js/">Proj4js</a>.</p>
 <h2>Maps and Layers</h2>
-<p>A map in OpenLayers is essentially a staple of layers that is viewed from the top. Layers are responsible for retrieving data and displaying it.</p>
+<p>A map in OpenLayers is essentially a staple of layers that is viewed from the top.
+Layers are responsible for retrieving data and displaying it.</p>
 <h2>Contributing</h2>
-<p>See <a href="https://github.com/openlayers/ol3/blob/master/CONTRIBUTING.md">CONTRIBUTING.md</a> for instructions
+<p>See <a href="https://github.com/geoadmin/ol3/blob/master/CONTRIBUTING.md">CONTRIBUTING.md</a> for instructions
 on building and testing OpenLayers. The file does also describe how to commit your changes to OpenLayers.</p></article>
     </section>
 

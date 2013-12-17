@@ -110,7 +110,7 @@
     <h4 class="name" id="create"><span class="type-signature">&lt;static> </span>create</h4>
     
     
-<div class="stability">Stability: not documented</div>
+<div class="stability stability-experimental">Stability: experimental</div>
 
 
 
@@ -120,7 +120,8 @@
     
     
     <div class="description">
-        <p>Create a Geoadmin layer.</p>
+        <p>Create an GeoAdmin layer using the geoadmin bod-id you
+may find on <a href="http://api3.geo.admin.ch/api/faq/index.html#which-layers-are-available">Which layers are available</a></p>
     </div>
     
 
@@ -200,7 +201,7 @@
 	
 	
 	<dt class="tag-source">Source:</dt>
-	<dd class="tag-source"><ul class="dummy"><li>layer.js, line 20</li></ul></dd>
+	<dd class="tag-source"><ul class="dummy"><li>layer.js, line 27</li></ul></dd>
 	
     
     
@@ -244,6 +245,12 @@
 
         
     
+    
+        <h5>Example</h5>
+        
+    <pre class="prettyprint"><code> var lyr = ga.layer.create('ch.swisstopo.pixelkarte-farbe')
+ </code></pre>
+
     
 </dd>
 
