@@ -9,6 +9,7 @@ cp build/layer*.js temp
 cp build/*.css temp
 cp build/EPSG* temp
 cp build/proj4js-com* temp
+cp build/*.png temp
 
 ./build-ga.py apidoc
 cp -r build/hosted/master/apidoc temp
