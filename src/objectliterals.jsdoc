@@ -60,6 +60,7 @@
  * @property {ol.Collection|Array.<ol.interaction.Interaction>|undefined} interactions
  *     Interactions that are initially added to the map.
  * @property {Array.<ol.layer.Base>|ol.Collection|undefined} layers Layers.
+ * @property {boolean|undefined} ol3Logo Show ol3 logo. Default is `true`.
  * @property {ol.Collection|Array.<ol.Overlay>|undefined} overlays
  *     Overlays initially added to the map.
  * @property {ol.RendererHint|undefined} renderer Renderer.
@@ -651,6 +652,7 @@
 
 /**
  * @typedef {Object} olx.source.MapQuestOptions
+ * @property {string} layer Layer.
  * @property {ol.TileLoadFunctionType|undefined} tileLoadFunction Optional
  *     function to load a tile given a URL.
  * @todo stability experimental
@@ -841,6 +843,17 @@
  */
 
 /**
+ * @typedef {Object} olx.source.ZoomifyOptions
+ * @property {Array.<ol.Attribution>|undefined} attributions Attributions.
+ * @property {null|string|undefined} crossOrigin Cross origin setting for image
+ *     requests.
+ * @property {string|undefined} logo Logo.
+ * @property {!string} url Prefix of URL template.
+ * @property {ol.Size} size Size of the image.
+ * @todo stability experimental
+ */
+
+/**
  * @typedef {Object} olx.style.IconOptions
  * @property {string|ol.expr.Expression} url Icon image URL.
  * @property {number|ol.expr.Expression|undefined} width Width of the icon
@@ -952,5 +965,11 @@
 /**
  * @typedef {Object} olx.tilegrid.XYZOptions
  * @property {number} maxZoom Maximum zoom.
+ * @todo stability experimental
+ */
+
+/**
+ * @typedef {Object} olx.tilegrid.ZoomifyOptions
+ * @property {!Array.<number>} resolutions Resolutions.
  * @todo stability experimental
  */
