@@ -1,37 +1,87 @@
-goog.require('ga.Map');
-goog.require('ga.layer');
-goog.require('ol.View2D');
+window.init = function() {
 
-window.GeoAdmin = {};
-window.GeoAdmin.lang = "en";
+      var layer = ga.layer.create('ch.swisstopo.pixelkarte-farbe');
+      var map = new ga.Map({
+        target: 'map',
+        layers: [layer],
+        view: new ol.View2D({
+          resolution: 500,
+          center: [670000, 160000]
+        })
+      });
 
-// Create a GeoAdmin Map
-var map = new ga.Map({
-  // Define the div where the map is placed
-  target: 'map',
-  // Create a 2D view
-  view: new ol.View2D({
-    // Define the default resolution
-    // 10 means that one pixel is 10m width and height
-    // List of resolution of the WMTS layers:
-    // 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1, 0.5, 0.25, 0.1
-    resolution: 10,
-    // Define a coordinate CH1903 for the center of the view
-    center: [561666.5, 185569.5]
-  })
-});
+    var defaultStyle =  new ol.style.Style({
+      fill: new ol.style.Fill({
+          color: 'rgba(255, 0, 0, 0.3)'
+          }),
+      stroke:
+	new ol.style.Stroke({ 
+          color: '#FF0000',
+          width:2
+         }) 
+       });
 
 
-//var lyr = ga.layer.create('ch.blw.alpprodukte');
-//var lyr = ga.layer.create('ch.bfs.gebaeude_wohnungs_register_wmts');
-//var lyr1 = ga.layer.create('ch.swisstopo.swissimage');
-//var lyr = ga.layer.create('ch.bfs.gebaeude_wohnungs_register_wms');
-//var lyr = ga.layer.create('ch.kantone.cadastralwebmap-farbe');
-//var lyr = ga.layer.create('ch.swisstopo-vd.geometa-gemeinde');
-//var lyr = ga.layer.create('ch.swisstopo.fixpunkte-hfp1');
-var lyr = ga.layer.create('ch.swisstopo.fixpunkte-agnes');
-var lyr1 = ga.layer.create('ch.swisstopo.pixelkarte-farbe');
+       $("#button").click(function(e){
+            e.preventDefault();
+            map.addInteraction(dragBox);
+          });
 
-map.addLayer(lyr1);
-map.addLayer(lyr);
 
+      var dragBox = new ol.interaction.DragBox({
+        style: defaultStyle
+        });
+
+
+
+       $(".coordinate_input").keyup(function(){
+         if (dragBox) {
+            var north = $("#coordinate_nord")[0].value;
+            var east = $("#coordinate_ost")[0].value;
+            var south = $("#coordinate_sued")[0].value;
+            var west = $("#coordinate_west")[0].value;
+            dragBox.getGeometry().setCoordinates(
+              [
+               [ 
+             	 [west,north],[west, south],[east,south],[east,north]
+               ]
+              ]
+		);
+         }
+       });
+
+
+
+
+
+      var feature = new ol.Feature();
+	  
+      var overlay = new ol.render.FeaturesOverlay({
+        map: map,
+        styleFunction: function(feature, resolution) {
+		  return [defaultStyle];
+		}
+      });
+
+      var starCoordinate = [0,0];
+      var endCoordinate = [0,0];
+
+      dragBox.on('boxstart', function(evt) {
+        overlay.getFeatures().clear();
+	startCoordinate = evt.getCoordinate();
+      });
+                
+      dragBox.on('boxend', function(evt) {
+	 endCoordinate = evt.getCoordinate();
+          $("#coordinate_west").val(Math.round(startCoordinate[0]));
+          $("#coordinate_nord").val(Math.round(startCoordinate[1]));
+          $("#coordinate_ost").val(Math.round(endCoordinate[0]));
+          $("#coordinate_sued").val(Math.round(endCoordinate[1]));
+       // alert("coordinates: west: "+startCoordinate[0]+", Sued: " + startCoordinate[1]);
+	// alert("coordinates: Ost: "+endCoordinate[0]+", Nord: " + endCoordinate[1]);
+      	 feature.setGeometry(dragBox.getGeometry());
+         overlay.addFeature(feature);
+         map.removeInteraction(dragBox);
+})
+
+}
