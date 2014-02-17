@@ -1,8 +1,8 @@
-<html>
- <head>
+<html> 
+<head>
    <meta http-equiv="X-UA-Compatible" content="IE=9,IE=10,IE=edge,chrome=1"/>
-   <link href="https://ol3-ui.dev.bgdi.ch/ltteo/build/ol.css">
-   <link href="https://ol3-ui.dev.bgdi.ch/ltteo/build/ga.css">
+   <link href="https://ol3-ui.dev.bgdi.ch/ltteo/build/ga.css" rel="stylesheet" />
+                
     <style>
       .map {
         height: 500px;
@@ -23,14 +23,14 @@
         <script src="https://ol3-ui.dev.bgdi.ch/ltteo/build/ga-whitespace.js"></script>
        
         
-   <h2>API3 Mapviewer for License Tool</h2>
+    <h2>API3 Mapviewer for License Tool</h2>
 
-   <div> <a href = "#" id= "button"> Neue Rechteck </a></div>
-   
-
-    <div id="map" class="map"></div>
+    <div> <a href = "#" id= "button"> Neue Rechteck </a></div>
+                               
+    <div id="map", style="cursor:crosshair", class="map"></div>
+      
     <span>
-    Koordinaten <p><Koordinaten></p>   
+    <p class="redbox">Koordinaten</p>   
     West <input type= "text" id= "coordinate_west" class = "coordinate_input">  
     Nord <input type= "text" id= "coordinate_nord" class = "coordinate_input">
     </span>
@@ -38,6 +38,16 @@
     Ost  <input type= "text" id= "coordinate_ost" class = "coordinate_input"> 
     Sued <input type= "text" id= "coordinate_sued" class = "coordinate_input"> 
     </div>
+
+    Massstab  <p><Massstab></p>
+    <input type="radio" name="Kartenlayer" value="1"/>1:25000
+    <input type="radio" name="Kartenlayer" value="2"/>1:50000
+    <input type="radio" name="Kartenlayer" value="3"/>1:100000
+    <input type="radio" name="Kartenlayer" value="4"/>1:200000
+    <input type="radio" name="Kartenlayer" value="5"/>1:500000
+    <input type="radio" name="Kartenlayer" value="0" checked/>multiscale
+
+
     <script type="text/javascript">
           window.init();
         </script>
