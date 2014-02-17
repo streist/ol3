@@ -1,8 +1,6 @@
 <html> 
-<head>
+  <head>
    <meta http-equiv="X-UA-Compatible" content="IE=9,IE=10,IE=edge,chrome=1"/>
-   <link href="https://ol3-ui.dev.bgdi.ch/ltteo/build/ga.css" rel="stylesheet" />
-                
     <style>
       .map {
         height: 500px;
@@ -10,27 +8,19 @@
         border: 1px solid #cccccc;
       }
     </style>
-    <script type="text/javascript" src="ga-rectangle.js"></script>   
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
     <title>API3 Mapviewer for License Tool</title>
-
   </head>
   <body>
-        <script src="https://ol3-ui.dev.bgdi.ch/ltteo/build/proj4js-compressed.js"></script>
-        <script src="https://ol3-ui.dev.bgdi.ch/ltteo/build/EPSG2056.js"></script>
-        <script src="https://ol3-ui.dev.bgdi.ch/ltteo/build/EPSG21781.js"></script>
-        <script src="https://ol3-ui.dev.bgdi.ch/ltteo/build/layersconfig.de.js"></script>
-        <script src="https://ol3-ui.dev.bgdi.ch/ltteo/build/ga-whitespace.js"></script>
-       
-        
     <h2>API3 Mapviewer for License Tool</h2>
-
-    <div> <a href = "#" id= "button"> Neue Rechteck </a></div>
+    <div> 
+      <a href = "#" id= "button"> Neue Rechteck</a>
+    </div>
                                
-    <div id="map", style="cursor:crosshair", class="map"></div>
-      
+    <div id="map" style="cursor" class="map"></div>
+
+        
     <span>
-    <p class="redbox">Koordinaten</p>   
+    <p class="redbox" >Koordinaten</p>     
     West <input type= "text" id= "coordinate_west" class = "coordinate_input">  
     Nord <input type= "text" id= "coordinate_nord" class = "coordinate_input">
     </span>
@@ -47,10 +37,12 @@
     <input type="radio" name="Kartenlayer" value="5"/>1:500000
     <input type="radio" name="Kartenlayer" value="0" checked/>multiscale
 
-
+    <script src="//code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="http://api3.geo.admin.ch/loader.js?lang=en" type="text/javascript"></script> 
+    <script type="text/javascript" src="ga-rectangle.js"></script>   
     <script type="text/javascript">
-          window.init();
-        </script>
+      window.init();
+    </script>
 
   </body>
 </html>
