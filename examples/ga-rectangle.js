@@ -20,11 +20,6 @@ window.init = function() {
         })
       });      
 
-
-
-      var zoomslider = new ol.control.ZoomSlider();
-      map.addControl(zoomslider);
-
       var setOneLayerVisible = function(layerIndex) {
         for (var i = 0, ii = layers.length; i < ii; i++) {
           var layer = layers[i];
@@ -53,7 +48,7 @@ window.init = function() {
 
       var dragBox = new ol.interaction.DragBox({
         style: defaultStyle
-        });
+       });
 
 
 
@@ -76,7 +71,7 @@ window.init = function() {
 
       var feature = new ol.Feature();
 	  
-      var overlay = new ol.render.FeaturesOverlay({
+      var overlay = new ol.FeatureOverlay({
         map: map,
         styleFunction: function(feature, resolution) {
 		  return [defaultStyle];
@@ -101,11 +96,13 @@ window.init = function() {
 	// alert("coordinates: Ost: "+endCoordinate[0]+", Nord: " + endCoordinate[1]);
       	 feature.setGeometry(dragBox.getGeometry());
          overlay.addFeature(feature);
+         $("#map canvas").css("cursor","default");
          map.removeInteraction(dragBox);
 
       });
 
       $("#button").click(function(e){
+        $("#map canvas").css("cursor","crosshair");
         e.preventDefault();
         map.addInteraction(dragBox);
       });
