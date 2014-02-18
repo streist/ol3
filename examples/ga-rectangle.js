@@ -18,7 +18,8 @@ window.init = function() {
           center: [670000, 160000],
           zoom: 2    
         })
-      });      
+    etOneLayerVisible(0);
+ });      
 
       var setOneLayerVisible = function(layerIndex) {
         for (var i = 0, ii = layers.length; i < ii; i++) {
